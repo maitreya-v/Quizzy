@@ -1,0 +1,60 @@
+h2{
+   margin-bottom: 5px;
+}
+p{
+    font-size: 1.2rem;
+}
+.parent{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.currentQuestion{
+    font-size: 2rem;
+}
+.scoreChild{
+    margin-top: 9px;
+}
+.finalResult{
+    height: 40vh;
+    display: grid;
+}
+.scoreDisplayFinalResult{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.quizOverText{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+.scoreDisplayFinalResultChild{
+    display:inline;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.startButtonHolder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+.startButtonText{
+width: 60%;
+display: flex;
+font-weight: 500;
+font-size: 2rem;
+}
+.startButton{
+    width: 10vw !important;
+    display: inline-block;
+}   
+.quizQuestion{
+    font-size: 1.5rem;
+}
+.optionButtonHolder{
+    display: flex;
+    justify-content: center ;
+}
